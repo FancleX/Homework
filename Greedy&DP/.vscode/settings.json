@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/chenzhicun/Desktop/Upenn Online/Algorithm Design and Analysis/junit.jar",
+        "/Users/chenzhicun/Desktop/Upenn Online/Algorithm Design and Analysis/hamcrest.jar"
+    ]
+}
