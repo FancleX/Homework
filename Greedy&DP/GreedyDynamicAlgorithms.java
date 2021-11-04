@@ -69,10 +69,13 @@ public class GreedyDynamicAlgorithms {
 		List<Direction> dirs = new ArrayList<Direction>();
 		if (grid == null || grid.length == 0) {
 			return dirs;
+		} else if (grid.length == 1 && grid[0].length == 1) {
+			// only original point exists
+			return dirs;
 		}
 
-		int row = grid.length; // row = 4
-		int col = grid[0].length; // col = 3
+		int row = grid.length; 
+		int col = grid[0].length; 
 		directionArrayList[][] directionMatrix= new directionArrayList[row][col];
 		int[][] memo = new int[row][col];
 		memo[0][0] = grid[0][0];
